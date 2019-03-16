@@ -24,20 +24,22 @@ alert ('person.age: ' + person.age);*/
 /*var key = 'age';
 alert(person[key]);*/
 
-var personPusto = {};
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
-function fPress() {
+
+// 1 способ - короткий, но здесь ошибка var key не используется
+/*function fPress() {
 	if (isEmpty(personPusto)){alert('Pusto')}
 	else alert('Ne pusto!');
 
 }
-// 1 способ - короткий
+
 function isEmpty(obj) {
 	for (var key in obj) {
 		return false;
 	}
 	return true;
-}
+}*/
 // 2 способ - длинный
 /*	var pusto = 0;
 	for(var key in Obj) {
@@ -47,3 +49,25 @@ function isEmpty(obj) {
 	else {alert('pusto!')}
 }*/
 
+// 3-й способ более правильный
+function fPress() {
+	var personPusto = {};
+	var personNePusto = {
+		name: 'Kot',
+		age: 22
+	};
+
+/*	alert('fPress');*/
+	isEmpty(person);
+	isEmpty(personPusto);
+	isEmpty(personNePusto);
+}
+
+function isEmpty(obj){
+	for(var key in obj) {
+		return alert('Ne Pusto! -> ' + obj[key]);
+	}
+	return alert('Pusto! -> ' + obj[key]);
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
