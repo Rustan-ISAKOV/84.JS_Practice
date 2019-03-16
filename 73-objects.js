@@ -14,7 +14,7 @@ for (var key in person){
 	count++;
 }
 /*var oLength = Object.keys[person].length;*/
-console.log('Kol:' + count + ' ' + 'Длина :' + Object.keys[person].length);
+/*console.log('Kol:' + count + ' ' + 'Длина :' + Object.keys[person].length);*/
 
 
 
@@ -50,14 +50,14 @@ function isEmpty(obj) {
 }*/
 
 // 3-й способ более правильный
-function fPress() {
+/*function fPress() {
 	var personPusto = {};
 	var personNePusto = {
 		name: 'Kot',
 		age: 22
 	};
 
-/*	alert('fPress');*/
+/!*	alert('fPress');*!/
 	isEmpty(person);
 	isEmpty(personPusto);
 	isEmpty(personNePusto);
@@ -68,6 +68,53 @@ function isEmpty(obj){
 		return alert('Ne Pusto! -> ' + obj[key]);
 	}
 	return alert('Pusto! -> ' + obj[key]);
-}
+}*/
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+// сумма всех зарплат
+/*
+var zarplata = {
+	'Vasya': 1000,
+	'Petya': 200,
+	'Sima': 300
+}
+var summa = 0;
+for (var key in zarplata){
+	summa+=zarplata[key];
+}
+alert('Summa zarplat = ' + summa);*/
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Есть объект salaries с зарплатами. Напишите код, который выведет имя сотрудника, у которого самая большая зарплата. Если объект пустой, то пусть он выводит «нет сотрудников».*/
+
+var salaries = {
+	'Vasya': 1000,
+	'Petya': 987,
+	'Sasha': 3
+}
+
+var noMembers = {};
+
+/*
+var max = 0, kol = 0;
+for (var key in salaries) {
+	kol++;
+	if (max < salaries[key]) {
+		max = salaries[key];
+	}
+}
+if (kol=0) {alert('No members!')}
+else {alert('Max of All Salaries = ' + max)}
+
+
+var max = 0, kol = 0;
+for (var key in noMembers) {
+	kol++;
+	if (max < noMembers[key]) {
+		max = noMembers[key];
+	}
+}
+if (kol=0) {alert('No members!')}
+else {alert('Max of All Salaries = ' + max)}*/
+
+// оригинальный вариант
