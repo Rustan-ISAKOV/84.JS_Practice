@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>SELECT Lesson</title>
+	<link rel="stylesheet" type="text/css" href="2.select.css">
+</head>
+<body>
+	<select name="" id="mySelect" onchange="fun1()" title="">
+		<option value="Apple">Apple1</option>
+		<option value="Banane">Banane2</option>
+		<option value="Pipeapple">Pipeapple3</option>
+		<option value="Orange">Orange4</option>
+	</select>
+
+	<div>
+		<p id="lab" style="display: none">Selected:</p>
+		<input type="text" id="fText" placeholder="Selected" style="display: none">
+	</div>
+<div >
+	<p id="par" style="display: inline">20</p>
+	<input type="range" min="0" max="200" step="5" value="20" id="range1" oninput="funRange()">
+	<input type="text" id="pText">
+</div>
+
+	<div id="kvadrat"></div>
+
+	<script src="2.select.js"></script>
+
+</body>
+</html>
