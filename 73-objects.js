@@ -43,4 +43,3 @@ function isEmpty(obj) {
 	if (pusto>0) {alert('Ne Pusto!')}
 	else {alert('pusto!')}
 }*/
-
