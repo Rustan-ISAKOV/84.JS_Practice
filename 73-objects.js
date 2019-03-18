@@ -11,8 +11,7 @@ person.pol = 'Ivanovka';
 var count=0;
 for (var key in person){
 	console.log(person[key]);
-	count++;
-	
+	count++;	
 	
 }
 
