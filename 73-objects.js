@@ -14,6 +14,7 @@ for (var key in person){
 	count++;
 	
 }
+
 /*var oLength = Object.keys[person].length;*/
 console.log('Kol:' + count + ' ' + 'Длина :' + Object.keys[person].length);
 
