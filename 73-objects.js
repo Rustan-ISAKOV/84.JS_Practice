@@ -27,7 +27,6 @@ var personPusto = {};
 function fPress() {
 	if (isEmpty(personPusto)){alert('Pusto')}
 	else alert('Ne pusto!');
-
 }
 // 1 способ - короткий
 function isEmpty(obj) {
