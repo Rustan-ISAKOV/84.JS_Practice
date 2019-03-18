@@ -17,7 +17,6 @@ for (var key in person){
 console.log('Kol:' + count + ' ' + 'Длина :' + Object.keys[person].length);
 
 
-
 /*delete person.age;*/
 /*
 alert ('person.age: ' + person.age);*/
