@@ -8,7 +8,6 @@
 	background-color: #333;
 	color: #fff;
 	overflow: hidden;
-
 }
 
 .menu-item .sub-menu{
@@ -17,6 +16,4 @@
 	background: green;
 	position: absolute;
 	cursor: pointer;
-
-
 }
