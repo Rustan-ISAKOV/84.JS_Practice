@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>title</title>
+	<link rel="stylesheet" type="text/css" href="3-cssGenerator.css">
+</head>
+<body>
+
+<div>
+	<h1>Изменение ширины блока</h1>
+	<p>Ширина:</p>
+	<input type="range" id="rWidth" min="1" max="500" value="1" oninput="fReSizeRange()">
+	<input type="text" id="sWText" oninput="fInputData()">
+</div>
+
+<div>
+	<h1>Изменение высоты блока</h1>
+	<p>Высота:</p>
+	<input type="range" id="rHeight" min="1" max="200" value="1" oninput="fReSizeRange()">
+	<input type="text" id="sHText" oninput="fInputData()">
+</div>
+
+<div id="block">
+	<h1>Закругление углов блока</h1>
+		<p class="block"> Левый верхний угол
+		<input type="range" id="range1" min="0" max="50" step="5" oninput="fRange()" value="0">
+		<input type="text" id="field1" value="0" oninput="fInputRadiusData()">
+	</p>
+		<p class="block"> Правый верхний угол
+		<input type="range" id="range2" min="0" max="50" step="5" oninput="fRange()" value="0">
+		<input type="text" id="field2" value="0" oninput="fInputRadiusData()">
+	</p>
+		<p class="block"> Правый нижний угол
+		<input type="range" id="range3" min="0" max="50" step="5" oninput="fRange()" value="0">
+		<input type="text" id="field3" value="0" oninput="fInputRadiusData()">
+	</p>
+		<p class="block"> Левый нижний угол
+		<input type="range" id="range4" min="0" max="50" step="5" oninput="fRange()" value="0">
+		<input type="text" id="field4" value="0" oninput="fInputRadiusData()">
+	</p>
+</div>
+
+<div id="exam"></div>
+
+
+	<script src="3-cssGenerator.js"></script>
+</body>
+</html>
