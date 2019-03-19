@@ -11,12 +11,11 @@ person.pol = 'Ivanovka';
 var count=0;
 for (var key in person){
 	console.log(person[key]);
-	count++;
+	count++;	
 }
+
 /*var oLength = Object.keys[person].length;*/
 /*console.log('Kol:' + count + ' ' + 'Длина :' + Object.keys[person].length);*/
-
-
 
 /*delete person.age;*/
 /*
@@ -31,7 +30,6 @@ alert(person[key]);*/
 /*function fPress() {
 	if (isEmpty(personPusto)){alert('Pusto')}
 	else alert('Ne pusto!');
-
 }
 
 function isEmpty(obj) {
@@ -115,4 +113,3 @@ for (var key in noMembers) {
 }
 if (kol=0) {alert('No members!')}
 else {alert('Max of All Salaries = ' + max)}
-
