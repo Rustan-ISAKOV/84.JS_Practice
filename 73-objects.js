@@ -95,19 +95,18 @@ var salaries = {
 
 var noMembers = {};
 
-/*
-var max = 0, kol = 0;
+var max = 0, maxName = '';
 for (var key in salaries) {
 	kol++;
 	if (max < salaries[key]) {
 		max = salaries[key];
+		maxName = salaries[name];
 	}
 }
-if (kol=0) {alert('No members!')}
-else {alert('Max of All Salaries = ' + max)}
+alert('Max of All Salaries = ' + max)
 
 
-var max = 0, kol = 0;
+
 for (var key in noMembers) {
 	kol++;
 	if (max < noMembers[key]) {
@@ -115,6 +114,5 @@ for (var key in noMembers) {
 	}
 }
 if (kol=0) {alert('No members!')}
-else {alert('Max of All Salaries = ' + max)}*/
+else {alert('Max of All Salaries = ' + max)}
 
-// оригинальный вариант
