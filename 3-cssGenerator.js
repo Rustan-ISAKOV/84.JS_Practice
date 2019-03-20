@@ -23,8 +23,7 @@ function fInputData(){
 // изменение ширины и высоты блока
 function fExamChange(toChWidth, toChHeight) {
 	document.getElementById("exam").style.width = toChWidth + "px";
-	document.getElementById("exam").style.height = toChHeight + "px";
-	
+	document.getElementById("exam").style.height = toChHeight + "px";	
 }
 
 //закругление углов блока
