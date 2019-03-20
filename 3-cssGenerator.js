@@ -9,6 +9,7 @@ function fReSizeRange() {
 	fExamChange(toReSizeWidth, toReSizeHeight);
 }
 
+
 //изменение ширины и высоты по вводимым значениям в поле ввода
 function fInputData(){
 	var toInputWidth = document.getElementById("sWText").value;
