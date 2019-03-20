@@ -1,11 +1,12 @@
 var tab;
 var tabContent;
 
+
 window.onload = function() {
 	tab = document.getElementsByClassName('tab');
 	tabContent = document.getElementsByClassName("tabContent");
 	hideTabsContent(1);
-};
+}
 
 function hideTabsContent(a){
 	for (var i=a; i<tabContent.length; i++){
@@ -25,7 +26,7 @@ document.getElementById('tabs').onclick = function (event) {
 			}
 		}
 	}
-};
+}
 
 function showTabsContent(b){
 	if (tabContent[b].classList.contains('hide')){
