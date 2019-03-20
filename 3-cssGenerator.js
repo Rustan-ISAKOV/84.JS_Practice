@@ -47,6 +47,7 @@ function fRange() {
 		document.getElementById("exam").style.borderBottomLeftRadius = range4 + "px";
 	}*/
 
+	
 //2 вариант короче
 	document.getElementById("field1").value = range1;
 	document.getElementById("field2").value = range2;
