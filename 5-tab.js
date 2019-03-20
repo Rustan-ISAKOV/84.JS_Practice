@@ -29,6 +29,7 @@ document.getElementById('tabs').onclick = function (event) {
 	}
 }
 
+
 function showTabsContent(b){
 	if (tabContent[b].classList.contains('hide')){
 		hideTabsContent(0);
