@@ -7,6 +7,7 @@ function fReSizeRange() {
 	document.getElementById("sHText").value = toReSizeHeight;
 
 	fExamChange(toReSizeWidth, toReSizeHeight);
+	
 }
 
 
