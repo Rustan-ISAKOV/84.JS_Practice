@@ -25,7 +25,6 @@ function fExamChange(toChWidth, toChHeight) {
 	document.getElementById("exam").style.height = toChHeight + "px";	
 }
 
-
 //закругление углов блока
 function fRange() {
 	var range1 = document.getElementById("range1").value;
