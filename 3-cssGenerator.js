@@ -20,6 +20,7 @@ function fInputData(){
 	document.getElementById("rHeight").value = toInputHeight;
 
 	fExamChange(toInputWidth, toInputHeight);
+	
 }
 
 // изменение ширины и высоты блока
