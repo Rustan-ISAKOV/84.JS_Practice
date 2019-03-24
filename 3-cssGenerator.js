@@ -56,6 +56,7 @@ function fRange() {
 
 	document.getElementById("exam").style.borderRadius = range1 + "% " + range2 + "% " + range3 + "% " + range4 + "%";
 }
+
 /*
 oninput="fInputRadiusData"(){
 	Надо сделать ввод чисел в поле для задания радиуса скругления
