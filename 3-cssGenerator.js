@@ -36,6 +36,7 @@ function fRange() {
 	var range2 = document.getElementById("range2").value;
 	var range3 = document.getElementById("range3").value;
 	var range4 = document.getElementById("range4").value;
+	
 
 //1 вариант длинный
 	/*	document.getElementById("field1").value = range1;
