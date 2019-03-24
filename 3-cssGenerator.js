@@ -2,6 +2,7 @@
 function fReSizeRange() {
 	var toReSizeWidth = document.getElementById("rWidth").value;
 	var toReSizeHeight= document.getElementById("rHeight").value;
+	
 
 	document.getElementById("sWText").value = toReSizeWidth;
 	document.getElementById("sHText").value = toReSizeHeight;
