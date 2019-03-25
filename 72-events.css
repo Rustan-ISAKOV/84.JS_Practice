@@ -1,0 +1,41 @@
+* {
+	/*margin: 0;*/
+}
+
+#menu{
+	border: 3px solid blue;
+}
+
+#menu a{
+	color: green;
+}
+
+#menu a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+#mainmenu {
+	padding: 0;
+	border: 3px solid red;
+}
+
+#mainmenu .spisok {
+	list-style-type: none;
+	padding-left: 20px;
+	margin: 0;
+}
+
+#mainmenu .spisok li{
+	margin: 0;
+}
+
+#mainmenu .spisok a{
+	color: blue;
+	text-decoration: none;
+}
+
+#mainmenu .spisok a:hover{
+	color: red;
+	text-decoration: underline;
+}
