@@ -30,7 +30,6 @@ btn.onclick = fOnClick;*/
 	this.style.display = "none";
 }*/
 
-
 /*
 menu.onclick = fDropDown;
 function fDropDown() {
