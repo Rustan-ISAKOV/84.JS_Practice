@@ -30,7 +30,7 @@ btn.onclick = fOnClick;*/
 	//скрывает сам элемент по которому кликнули
 	this.style.display = "none";
 }*/
-
+ 
 /*
 menu.onclick = fDropDown;
 function fDropDown() {
