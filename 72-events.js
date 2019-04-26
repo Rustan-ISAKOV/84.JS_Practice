@@ -1,6 +1,6 @@
 "use strict";         
                                                                                                                        
-var str = 'Hello, my friend!';          
+var str = 'Hello, my friend!';           
                            
 alert(str.toUpperCase);   
      
