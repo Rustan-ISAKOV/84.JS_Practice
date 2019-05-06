@@ -8,7 +8,7 @@ alert(str.toUpperCase);
 /*var str = 'please buy viagra';
 if (~str.indexOf('viagra')){
 	alert('SPAM!')
-} else alert('No SPAM!');*/
+} else alert('No SPAM!');*/ 
 
 /*alert('Oka' [0].toLowerCase())*/
 
