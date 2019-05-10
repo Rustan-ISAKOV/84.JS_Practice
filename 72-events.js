@@ -9,7 +9,7 @@ alert(str.toUpperCase);
 if (~str.indexOf('viagra')){
 	alert('SPAM!')
 } else alert('No SPAM!');*/ 
- 
+  
 /*alert('Oka' [0].toLowerCase())*/  
 
 //Напишите функцию ucFirst(str), которая возвращает строку str с заглавным первым символом, например:
