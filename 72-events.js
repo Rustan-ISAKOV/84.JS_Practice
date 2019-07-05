@@ -33,6 +33,6 @@ btn.onclick = fOnClick;*/
      
 /*      
 menu.onclick = fDropDown;
-function fDropDown() {
+function fDropDown() { 
 	document.getElementById('mainmenu').style.display = "none";
 }*/
