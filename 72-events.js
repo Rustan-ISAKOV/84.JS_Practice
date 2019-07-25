@@ -9,5 +9,5 @@ alert(str.toUpperCase);
 if (~str.indexOf('viagra')){   
 	alert('SPAM!')   
 } else alert('No 
- 
+  
      
