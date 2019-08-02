@@ -13,5 +13,5 @@ if (~str.indexOf('viagra')){
      
     
     
- 
+  
  
