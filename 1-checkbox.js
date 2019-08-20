@@ -4,10 +4,10 @@
 	if (CheckCond.checked) {
 		document.getElementById("fText").style.display = "inline";
 	} else document.getElementById("fText").style.display = "none";
-}*/
+}*/ 
     
 //or запись длиннее  
-//в поле вводится инфо и отображается в текстовом поле
+//в поле вводится инфо и отображается в текстовом поле 
 function onClickMe() {
 	if (document.getElementById("Chk").checked) {
 		document.getElementById("fText").style.display = "inline";
