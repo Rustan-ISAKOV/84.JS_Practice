@@ -31,7 +31,7 @@ function onClickMe2() {
 	if (CheckCond2.checked) {
 		document.getElementById("fText2").style.display = "inline";
 	} else document.getElementById("fText2").style.display = "none";
-}
+} 
  
 // radiobutton   
 // нам необх. перебрать все эл-ты радиобаттон и определить какой из них выбран
@@ -53,7 +53,7 @@ function onClickMe3() {
 		}
 	}
 }
-
+  
 //проверить такой вариант
 function CheckedRadio(obj){
 	var val;
