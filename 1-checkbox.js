@@ -26,7 +26,7 @@ function funOnChange1() {
 	document.getElementById("parag").innerHTML = document.getElementById("fText").value;
 }
 
-function onClickMe2() {
+function onClickMe2() { 
 	var CheckCond2 = document.getElementById("Chk2"); 
 	if (CheckCond2.checked) {
 		document.getElementById("fText2").style.display = "inline";
