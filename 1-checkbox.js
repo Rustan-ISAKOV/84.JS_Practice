@@ -5,7 +5,7 @@
 		document.getElementById("fText").style.display = "inline";
 	} else document.getElementById("fText").style.display = "none";
 }*/               
-                                                           
+                                                            
 //or запись длиннее              
 //в поле вводится инфо и от ображается в текстовом поле 
 function onClickMe() {
@@ -22,7 +22,7 @@ function onClickMe() {
 	/*alert(document.getElementById("fText").value);*/
 }
 
-function funOnChange1() {
+function funOnChange1() { 
 	document.getElementById("parag").innerHTML = document.getElementById("fText").value;
 }
  
