@@ -25,7 +25,7 @@ function onClickMe() {
 function funOnChange1() { 
 	document.getElementById("parag").innerHTML = document.getElementById("fText").value;
 }
- 
+  
 function onClickMe2() {  
 	var CheckCond2 = document.getElementById("Chk2"); 
 	if (CheckCond2.checked) {
