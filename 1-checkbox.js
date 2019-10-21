@@ -33,7 +33,7 @@ function onClickMe2() {
 	} else document.getElementById("fText2").style.display = "none";
 } 
         
-// radiobutton     
+// radiobutton      
 // нам необх. перебрать все эл-ты радиобаттон и определить какой из них выбран
  
 function radioFun() {  
