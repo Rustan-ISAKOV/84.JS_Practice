@@ -35,7 +35,7 @@ function onClickMe2() {
         
 // radiobutton      
 // нам необх. перебрать все эл-ты радиобаттон и определить какой из них выбран
-  
+   
 function radioFun() {  
 	var radioArr = document.getElementsByName("r1");
 	for (var i=0; i<radioArr.length; i++) {
