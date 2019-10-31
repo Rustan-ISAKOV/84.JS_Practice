@@ -63,5 +63,5 @@ function CheckedRadio(obj){
 			break;
 		}
 	}
-	return val;
+	return val; 
 }
