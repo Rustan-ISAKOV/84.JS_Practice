@@ -4,7 +4,7 @@
 	if (CheckCond.checked) {   
 		document.getElementById("fText").style.display = "inline";
 	} else document.getElementById("fText").style.display = "none";
-}*/                                   
+}*/                                    
                                                                                                          
 //or запись длиннее                          
 //в поле вводится инфо и от ображается в текстовом поле  
@@ -35,7 +35,7 @@ function onClickMe2() {
           
 // radiobutton        
 // нам необх. перебрать все эл-ты радиобаттон и определить какой из них выбран
-    
+     
 function radioFun() {     
 	var radioArr = document.getElementsByName("r1");
 	for (var i=0; i<radioArr.length; i++) {
