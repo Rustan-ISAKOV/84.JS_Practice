@@ -21,7 +21,7 @@ function onClickMe() {
 	/*alert(document.getElementById("fText").value);*/
 }
        
-function funOnChange1() {  
+function funOnChange1() {   
 	document.getElementById("parag").innerHTML = document.getElementById("fText").value;
 }
      
