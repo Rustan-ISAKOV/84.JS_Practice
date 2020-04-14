@@ -4,7 +4,7 @@
 	if (CheckCond.checked) {    
 		document.getElementById("fText").style.display = "inline";
 	} else document.getElementById("fText").style.display = "none";
-}*/                                                                                                                                                                                                                                                                        
+}*/                                                                                                                                                                                                                                                                         
 //or запись длиннее                                                                                                                                                          
 //в поле вводится инфо и от  ображается в текстовом поле       
 function onClickMe() {   
