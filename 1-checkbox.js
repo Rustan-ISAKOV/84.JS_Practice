@@ -1,5 +1,5 @@
 // on/Off текстового поля по checkbox
-/*function onClickMe() {       
+/*function onClickMe() {        
 	var CheckCond = document.getElementById("Chk");      
 	if (CheckCond.checked) {         
 		document.getElementById("fText").style.display = "inline"; 
