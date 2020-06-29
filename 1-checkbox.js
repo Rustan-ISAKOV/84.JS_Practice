@@ -5,7 +5,7 @@
 		document.getElementById("fText").style.display = "inline";  
 	} else document.getElementById("fText").style.display = "none";
 }*/                                                                                                                                                                                                                                                                                                     
-//or запись длиннее                                                                                                                                                                                                       
+//or запись длиннее                                                                                                                                                                                                        
 //в поле вводится инфо и от  ображается в текстовом поле                 
 function onClickMe() {    
 	if (document.getElementById("Chk").checked) {    
@@ -57,10 +57,4 @@ function onClickMe3() {
 function CheckedRadio(obj){
 	var val;
 	for(var i=0; i<obj.length; i++){
-		if(obj[i].checked){
-			val = obj[i].value;
-			break;
-		}
-	}
-	return val;  
-}
+		if
