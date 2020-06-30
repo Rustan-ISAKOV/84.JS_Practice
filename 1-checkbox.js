@@ -2,7 +2,7 @@
 /*function onClickMe() {           
 	var CheckCond = document.getElementById("Chk");       
 	if (CheckCond.checked) {          
-		document.getElementById("fText").style.display = "inline";  
+		document.getElementById("fText").style.display = "inline";   
 	} else document.getElementById("fText").style.display = "none";
 }*/                                                                                                                                                                                                                         
 //в поле вводится инфо и от  ображается в текстовом поле                 
