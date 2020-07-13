@@ -11,7 +11,7 @@
 		document.getElementById("parag").style.display = "block";
 	} else {
 		document.getElementById("fText").style.display = "none";
-		document.getElementById("fText").value = "";
+		document.getElementById("fText").value = ""; 
 		document.getElementById("parag").style.display = "none";
 	}  
 	document.getElementById("fText2").value = document.getElementById("fText").value;
