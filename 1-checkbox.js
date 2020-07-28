@@ -15,7 +15,7 @@
 	document.getElementById("fText2").value = document.getElementById("fText").value;
 /*	document.getElementById("parag").innerText = document.getElementById("fText").value;*/
 	/*alert(document.getElementById("fText").value);*/
-}
+} 
               
 function funOnChange1() {   
 	document.getElementById("parag").innerHTML = document.getElementById("fText").value;
