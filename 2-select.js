@@ -1,7 +1,7 @@
 function fun1() {
 	var sel = document.getElementById("mySelect").selectedIndex;
 	document.getElementById("lab").style.display = "block";
-	document.getElementById("fText").style.display = "block";
+	document.getElementById("fText").style.display = "block"; 
 // 1 вариант
 	/*document.getElementById("fText").value = document.getElementById("mySelect").value;*/
 
