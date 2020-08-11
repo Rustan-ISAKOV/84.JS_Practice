@@ -12,7 +12,7 @@ function fun1() {
 	// выводит заданное значение
 	document.getElementById("fText").value = options[sel].value;
 
-}
+} 
  
 // вывод данных бегунка в параграф и в поле ввода
 function funRange() {
