@@ -4,7 +4,7 @@ function fun1() {
 	document.getElementById("fText").style.display = "block"; 
 // 1 вариант
 	/*document.getElementById("fText").value = document.getElementById("mySelect").value;*/
- 
+  
 // 2 вариант  
 	var options = document.getElementById("mySelect").options;
 	// выводит текст списка 
