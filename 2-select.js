@@ -10,7 +10,7 @@ function fun1() {
 	// выводит текст списка 
 	document.getElementById("fText").value = options[sel].text;
 	// выводит заданное значение
-	document.getElementById("fText").value = options[sel].value;
+	document.getElementById("fText").value = options[sel].value; 
 
 }   
   
