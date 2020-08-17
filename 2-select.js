@@ -9,7 +9,7 @@ function fun1() {
 	var options = document.getElementById("mySelect").options;
 	// выводит текст списка 
 	document.getElementById("fText").value = options[sel].text;
-	// выводит заданное значение
+	// выводит заданное значение 
 	document.getElementById("fText").value = options[sel].value; 
 
 }   
