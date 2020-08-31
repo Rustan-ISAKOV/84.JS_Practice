@@ -8,7 +8,7 @@ function fun1() {
 // 2 вариант    
 	var options = document.getElementById("mySelect").options;
 	// выводит текст списка 
-	document.getElementById("fText").value = options[sel].text; 
+	document.getElementById("fText").value = options[sel].text;  
 	// выводит заданное значение 
 	document.getElementById("fText").value = options[sel].value; 
  
