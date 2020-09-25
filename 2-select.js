@@ -5,7 +5,7 @@ function fun1() {
 // 1 вариант
 	/*document.getElementById("fText").value = document.getElementById("mySelect").value;*/
         
-// 2 вариант         
+// 2 вариант          
 	var options = document.getElementById("mySelect").options;
 	// выводит текст списка 
 	document.getElementById("fText").value = options[sel].text;    
