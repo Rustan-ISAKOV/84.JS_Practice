@@ -29,3 +29,4 @@ document.getElementById("kvadrat").style.width = document.getElementById("range1
 }
  
           
+ 
