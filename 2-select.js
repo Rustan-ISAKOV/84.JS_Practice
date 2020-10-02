@@ -26,7 +26,6 @@ document.getElementById("kvadrat").style.width = document.getElementById("range1
 /*// OR в конце Н. добавлять единицы измерения
 	var divSize = document.getElementById("kvadrat");
 	divSize.style.width = range.value + 'px';*/
-}
-  
+} 
            
  
