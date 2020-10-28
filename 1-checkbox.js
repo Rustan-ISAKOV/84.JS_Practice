@@ -1,4 +1,4 @@
-// on/Off текстового поля по checkbox 
+// on/Off текстового поля по checkbox  
 /*function onClickMe() {                 
 	var CheckCond = document.getElementById("Chk");                    
 	if (CheckCond.checked) {              
