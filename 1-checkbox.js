@@ -4,7 +4,7 @@
 	if (CheckCond.checked) {                  
 		document.getElementById("fText").style.display = "inline";          
 }*/                                                                                                                                                                                                                                  
-//в поле вводится инфо и от  ображается в текстовом поле                             
+//в поле вводится инфо и от  ображается в текстовом поле                              
 	if (document.getElementById("Chk").checked) {               
 		document.getElementById("fText").style.display = "inline";        
 	} else {  
@@ -26,7 +26,7 @@ function onClickMe2() {
 	if (CheckCond2.checked) { 
 		document.getElementById("fText2").style.display = "inline"; 
 	} else document.getElementById("fText2").style.display = "none"; 
-}     
+}      
                      
 // radiobutton            
 // нам необх. перебрать все эл-ты радиобаттон и определить какой из них выбран
