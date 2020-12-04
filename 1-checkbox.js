@@ -6,7 +6,7 @@
 }*/                                                                                                                                                                                                                                  
 //в поле вводится инфо и от  ображается в текстовом поле                                
 	if (document.getElementById("Chk").checked) {               
-		document.getElementById("fText").style.display = "inline";        
+		document.getElementById("fText").style.display = "inline";         
 	} else {   
 		document.getElementById("fText").style.display = "none";  
 		document.getElementById("fText").value = ""; 
