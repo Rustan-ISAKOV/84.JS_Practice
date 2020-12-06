@@ -7,7 +7,7 @@
 //в поле вводится инфо и от  ображается в текстовом поле                                
 	if (document.getElementById("Chk").checked) {               
 		document.getElementById("fText").style.display = "inline";         
-	} else {   
+	} else {    
 		document.getElementById("fText").style.display = "none";  
 		document.getElementById("fText").value = ""; 
 		document.getElementById("parag").style.display = "none";
@@ -25,7 +25,7 @@ function onClickMe2() {
 	var CheckCond2 = document.getElementById("Chk2"); 
 	if (CheckCond2.checked) { 
 		document.getElementById("fText2").style.display = "inline"; 
-	} else document.getElementById("fText2").style.display = "none"; 
+	} else document.getElementById("fText2").style.display = "none";  
 }       
                      
 // radiobutton            
