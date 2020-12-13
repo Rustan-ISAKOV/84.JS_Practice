@@ -25,7 +25,7 @@ function onClickMe2() {
 	var CheckCond2 = document.getElementById("Chk2"); 
 	if (CheckCond2.checked) { 
 		document.getElementById("fText2").style.display = "inline"; 
-	} else document.getElementById("fText2").style.display = "none";  
+	} else document.getElementById("fText2").style.display = "none";   
 }       
                      
 // radiobutton            
