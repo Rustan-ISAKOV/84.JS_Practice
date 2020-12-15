@@ -7,7 +7,7 @@
 //в поле вводится инфо и от  ображается в текстовом поле                                     
 	if (document.getElementById("Chk").checked) {                  
 		document.getElementById("fText").style.display = "inline";         
-	} else {     
+	} else {      
 		document.getElementById("fText").style.display = "none";  
 		document.getElementById("fText").value = "";   
 		document.getElementById("parag").style.display = "none"; 
