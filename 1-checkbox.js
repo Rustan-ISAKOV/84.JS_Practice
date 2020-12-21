@@ -1,7 +1,7 @@
 // on/Off текстового поля по checkbox   
 /*function onClickMe() {                   
 	var CheckCond = document.getElementById("Chk");                              
-	if (CheckCond.checked) {                       
+	if (CheckCond.checked) {                        
 		document.getElementById("fText").style.display = "inline";               
 }*/                                                                                                                                                                                                                                       
 //в поле вводится инфо и от  ображается в текстовом поле                                        
