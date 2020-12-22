@@ -2,7 +2,7 @@
 /*function onClickMe() {                   
 	var CheckCond = document.getElementById("Chk");                              
 	if (CheckCond.checked) {                         
-		document.getElementById("fText").style.display = "inline";                
+		document.getElementById("fText").style.display = "inline";                 
 }*/                                                                                               
 	if (document.getElementById("Chk").checked) {                      
 		document.getElementById("fText").style.display = "inline";           
