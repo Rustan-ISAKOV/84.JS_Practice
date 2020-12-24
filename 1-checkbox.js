@@ -7,7 +7,7 @@
 	if (document.getElementById("Chk").checked) {                       
 		document.getElementById("fText").style.display = "inline";            
 	} else {        
-		document.getElementById("fText").style.display = "none";   
+		document.getElementById("fText").style.display = "none";    
 		document.getElementById("fText").value = "";    
 		document.getElementById("parag").style.display = "none"; 
 	}  
