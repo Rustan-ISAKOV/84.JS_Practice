@@ -2,7 +2,7 @@
 /*function onClickMe() {                    
 	var CheckCond = document.getElementById("Chk");                              
 	if (CheckCond.checked) {                          
-		document.getElementById("fText").style.display = "inline";                 
+		document.getElementById("fText").style.display = "inline";                  
 }*/                                                                                                  
 	if (document.getElementById("Chk").checked) {                          
 	} else {         
@@ -28,7 +28,7 @@ function onClickMe2() {
                      
 // radiobutton            
 // нам необх. перебрать все эл-ты радиобаттон и определить какой из них выбран
-        
+         
 function radioFun() {      
 	var radioArr = document.getElementsByName("r1");
 	for (var i=0; i<radioArr.length; i++) { 
