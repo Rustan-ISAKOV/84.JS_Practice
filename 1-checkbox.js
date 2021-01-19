@@ -5,7 +5,7 @@
 		document.getElementById("fText").style.display = "inline";                   
 }*/                                                                                                  
 	if (document.getElementById("Chk").checked) {                           
-	} else {           
+	} else {            
 		document.getElementById("fText").style.display = "none";    
 		document.getElementById("fText").value = "";     
 		document.getElementById("parag").style.display = "none"; 
