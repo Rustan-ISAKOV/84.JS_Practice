@@ -3,7 +3,7 @@
 	var CheckCond = document.getElementById("Chk");                                 
 	if (CheckCond.checked) {                           
 		document.getElementById("fText").style.display = "inline";                    
-}*/                                                                                                   
+}*/                                                                                                    
 	if (document.getElementById("Chk").checked) {                               
 	} else {            
 		document.getElementById("fText").style.display = "none";    
@@ -31,7 +31,7 @@ function onClickMe2() {
          
 function radioFun() {       
 	var radioArr = document.getElementsByName("r1");  
-	for (var i=0; i<radioArr.length; i++) { 
+	for (var i=0; i<radioArr.length; i++) {  
 		if (radioArr[i].checked) {
 			document.getElementById("fText").value = radioArr[i].value;
 		}
