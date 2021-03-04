@@ -9,7 +9,7 @@
 		document.getElementById("fText").style.display = "none";         
 		document.getElementById("fText").value = "";        
 		document.getElementById("parag").style.display = "none";   
-	}  
+	}   
 	document.getElementById("fText2").value = document.getElementById("fText").value;
 /*	document.getElementById("parag").innerText = document.getElementById("fText").value;*/
 	/*alert(document.getElementById("fText").value);*/
@@ -31,7 +31,7 @@ function onClickMe2() {
          
 function radioFun() {       
 	var radioArr = document.getElementsByName("r1");   
-	for (var i=0; i<radioArr.length; i++) {  
+	for (var i=0; i<radioArr.length; i++) {   
 		if (radioArr[i].checked) {
 			document.getElementById("fText").value = radioArr[i].value;
 		}
