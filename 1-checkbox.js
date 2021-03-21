@@ -5,7 +5,7 @@
 		document.getElementById("fText").style.display = "inline";                      
 }*/                                                                                                           
 	if (document.getElementById("Chk").checked) {                                            
-	} else {                   
+	} else {                    
 		document.getElementById("fText").style.display = "none";           
 		document.getElementById("fText").value = "";         
 		document.getElementById("parag").style.display = "none";    
@@ -30,7 +30,7 @@ function onClickMe2() {
 // нам необх. перебрать все эл-ты радиобаттон и определить какой из них выбран 
           
 function radioFun() {        
-	var radioArr = document.getElementsByName("r1");   
+	var radioArr = document.getElementsByName("r1");    
 	for (var i=0; i<radioArr.length; i++) {   
 		if (radioArr[i].checked) {
 			document.getElementById("fText").value = radioArr[i].value;
