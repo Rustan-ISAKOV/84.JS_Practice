@@ -4,7 +4,7 @@
 	if (CheckCond.checked) {                            
 		document.getElementById("fText").style.display = "inline";                       
 }*/                                                                                                            
-	if (document.getElementById("Chk").checked) {                                             
+	if (document.getElementById("Chk").checked) {                                              
 	} else {                      
 		document.getElementById("fText").style.display = "none";             
 		document.getElementById("fText").value = "";          
